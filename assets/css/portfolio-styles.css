@@ -1,0 +1,66 @@
+
+ /*------------------------project -----------------------------------------*/
+
+ .project {
+    display: block;
+    width: 100%;
+    margin-top: 70px;
+
+ }
+
+ .TitleAndImg {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+ }
+
+ .descr {
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+
+ }
+
+.photos {
+   margin-top: 40px;
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
+}
+
+/*---------------------------------- Desktop Styles------------------------------------------ */
+@media only screen and (min-width: 961px) { 
+
+   /*....project....*/
+    .project {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 50px;
+        margin-left: 15px;
+        justify-content: space-around;
+    }
+
+    .TitleAndImg {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      width: 60%;
+      margin-left: 0;
+    }
+ 
+    .descr {
+       width: fit-content;
+       height: fit-content;
+       margin-top: 230px;
+       margin-right: 35px;
+    }
+
+    .underline3 {
+      margin-top: -40px;
+      margin-left: -120px;
+    }
+ 
+}

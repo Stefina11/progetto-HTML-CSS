@@ -1,0 +1,236 @@
+/*------------------------impostazioni generali -----------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .main-bg {
+    position: fixed;  
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+   }
+
+   .page {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    padding-bottom: 70px;
+  }
+
+  .contents {
+    padding-bottom: 2.5rem;
+  }
+
+/*------------------------barra del menù -----------------------------------------*/
+.section-menu {
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .wall {
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+}
+
+  .MenuX3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    width: fit-content;
+    color: white;  
+   }
+
+ .menu {
+    font-family: 'Permanent_markerregular', Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000;
+ }
+/*--------underlined title--------*/
+ figure {
+    margin-top: 20px;
+    width: 80%;
+  }
+ 
+   figcaption{
+    margin-top: 20px;
+    margin-left: 20%;
+    display: block;
+    width: fit-content;
+    font-family: 'Permanent_markerregular', Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+    text-align: center;
+  }
+ 
+ .underline3 {
+    width: 110%;
+    margin-top: -100px;
+    margin-left: -140px;
+ }
+
+
+
+
+/*------------img&photo-----------------*/
+  .photos {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+
+ /*-------------loghi--------------------*/
+ .logos {
+    display: inline-block; 
+    width: fit-content;
+    text-align: center;
+  }
+  
+  .logo {
+    margin: 3px;
+    width:12%;
+    
+  }
+  
+   /*---------------testo-----------------------*/
+   .h1-title  {
+    font-family: 'Permanent_markerregular', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+ }
+
+   .h2-title {
+    font-family: 'Permanent_markerregular', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+    font-weight: normal;
+  }
+
+  .h1-ordinary-text {
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    line-height: 1em;
+    text-align: center;
+    font-family: Arial, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+  .p-ordinary-text {
+    line-height: 2em;
+    font-family: Arial, 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  /*--------btn--------*/
+.btn {
+    font-size: 18px;
+    padding: 8px; 
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: fit-content;
+    border-radius: 15px;
+    font-family: 'Permanent_markerregular';
+    color: wheat;
+    background-color: #7f4526;
+    text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000;
+    border-style: solid;
+    margin: 0 auto; 
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+    color: white;
+  }
+
+/*------------------------footer -----------------------------------------*/
+  .footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 2.5rem;
+    bottom: 0;
+    margin: 5px;
+    justify-content: space-between;
+    padding: 0 15px;
+   }
+  
+   .copyright {
+    font-size: 8px;
+    margin-top: 15px;
+   }
+
+   /*--------loghi footer--------*/
+   .flogos {
+    display: inline-block;
+    width: 100px;
+    justify-content: right;
+    right:-5px;
+  }
+  
+  .flogo {
+    margin-top: 5px;
+    width: 30%;
+  }
+
+  /*-----------------------------------desktop mood----------------------------------------------------------*/
+
+@media only screen and (min-width: 961px) { 
+
+/*------------------------barra del menù -----------------------------------------*/    
+     .menu {
+        font-size: 20px;
+        margin: 20px;
+     }
+
+/*-----------titoli e nome----------*/
+.h1-title {
+  font-size: 30px;
+}
+
+.h2-title {
+  font-size: 20px;
+}
+
+.p-ordinary-text {
+  padding: 15px;
+}
+
+.figure {
+  text-align: center;
+}
+
+figcaption{
+  font-size: 20px;
+}
+
+.underline3 {
+  width: 80%;
+  margin-top: -50px;
+  margin-left: -120px;
+}
+       
+     
+    }     
+
+
+      

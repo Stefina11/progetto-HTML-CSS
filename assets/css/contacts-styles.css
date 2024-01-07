@@ -1,0 +1,39 @@
+
+.intro {
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.format {
+  display: flex;
+  flex-direction: column; 
+  width: 90%;
+  padding: 50px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.input {
+  margin-bottom: 40px;
+  font-family: Arial, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #FFFFFF;
+  border: 1px solid #636363;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+ /*---------------------------------- Desktop Styles------------------------------------------ */
+ @media only screen and (min-width: 961px) { 
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+  .format {
+    width: 50%;
+  }
+}
+
