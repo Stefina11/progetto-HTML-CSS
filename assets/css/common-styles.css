@@ -84,9 +84,6 @@
     margin-left: -140px;
  }
 
-
-
-
 /*------------img&photo-----------------*/
   .photos {
     margin-top: 40px;
@@ -192,7 +189,7 @@
     width: 30%;
   }
 
-  /*-----------------------------------desktop mood----------------------------------------------------------*/
+  /*-----------------------------------desktop breackpoint----------------------------------------------------------*/
 
 @media only screen and (min-width: 961px) { 
 
@@ -203,12 +200,9 @@
      }
 
 /*-----------titoli e nome----------*/
-.h1-title {
-  font-size: 30px;
-}
-
+s
 .h2-title {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .p-ordinary-text {
@@ -230,7 +224,7 @@ figcaption{
 }
        
      
-    }     
+}     
 
 
       
