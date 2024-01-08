@@ -1,0 +1,60 @@
+.section-title {
+    display: block;
+    width: 100%;
+    margin-top: 70px;
+  }
+
+/*----------------titoli e nome----------------------*/
+  .h1-title {
+   font-family: 'Permanent_markerregular', Arial, Helvetica, sans-serif; 
+   text-align: center;
+   font-size: 16px;
+   margin: 15px;
+}
+
+/*----------------welcome&btn&img----------------------*/
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.welcome {
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 70%;
+    height: auto;
+  }
+
+  .p-ordinary-text {
+    margin-top: 20px;
+  }
+
+  /*--------btn--------*/
+.btn { 
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+/*--------------------------------------------desktop------------------------------------------------*/
+
+@media only screen and (min-width: 961px) { 
+  
+  .welcome {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .h1-title {
+    font-size: 38px;
+  }
+  .h2-title {
+    font-size: 30px;
+  }
+}
